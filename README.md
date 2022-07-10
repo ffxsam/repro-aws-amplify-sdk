@@ -1,7 +1,5 @@
 # Nuxt 3 + AWS SDKs
 
-There are currently two build issues, one of these also being an issue in dev mode.
-
 ## AWS Amplify (GraphQL API)
 
 Amplify works in dev mode, but fails during build.
