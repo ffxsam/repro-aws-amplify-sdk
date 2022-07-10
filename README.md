@@ -44,7 +44,7 @@ file: /Users/samh/repro-aws-amplify-sdk/node_modules/@aws-sdk/credential-provide
 
 ## AWS JS SDK v3
 
-It would be great to make SDK calls on the server side. This would (in some instances) remove the need for API calls, reducing potential cold starts by half:
+It would be great to make SDK calls on the server side. This would (in some instances) remove the need for API calls, reducing latency & potential cold starts by half:
 
 > Nuxt app ❄️ » API Gateway » Lambda ❄️ » SDK call
 
@@ -55,7 +55,7 @@ to this:
 Unfortunately, this results in a runtime error in dev mode.
 
 ### Steps to Reproduce
-1. Uncomment the code `app.vue`'s script block'.
+1. Uncomment the code in `app.vue`'s script block'.
 1. Run `yarn dev`.
 
 ### Result
