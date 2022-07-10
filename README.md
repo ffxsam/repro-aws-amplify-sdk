@@ -1,5 +1,7 @@
 # Nuxt 3 + AWS SDKs
 
+This repo is a fresh out-of-the-box install of Nuxt 3 RC 4, and the latest versions of AWS Amplify and AWS JS SDK v3.
+
 ## AWS Amplify (GraphQL API)
 
 Amplify works in dev mode, but fails during build.
