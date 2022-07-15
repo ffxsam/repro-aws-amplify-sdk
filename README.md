@@ -57,6 +57,7 @@ Unfortunately, this results in a runtime error in dev mode.
 ### Steps to Reproduce
 1. Uncomment the code in `app.vue`'s script block'.
 1. Run `yarn dev`.
+1. Open app in browser.
 
 ### Result
 
